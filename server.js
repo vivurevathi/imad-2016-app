@@ -17,10 +17,6 @@ app.get('/ui/vivu.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'vivu.jpg'));
 });
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
-});
-
 app.get('/ui/abc.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'abc.jpg'));
 });
