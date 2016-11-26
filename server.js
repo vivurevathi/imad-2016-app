@@ -55,10 +55,6 @@ app.get('/ui/font-awesome.min.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'font-awesome.min.css'));
 });
 
-app.get('/ui/lightbox.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'lightbox.css'));
-});
-
 app.get('/ui/1.jpg', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', '1.jpg'));
 });
