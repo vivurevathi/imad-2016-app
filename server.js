@@ -9,8 +9,18 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+app.get('/ui/preset1.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'preset1.css'));
+});
+
+app.get('/ui/lightbox.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'lightbox.css'));
+});
+app.get('/ui/animate.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'animate.css'));
+});
+app.get('/ui/responsive.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'responsive.css'));
 });
 
 app.get('/ui/1.jpg', function (req, res) {
